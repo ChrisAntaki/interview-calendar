@@ -4,7 +4,7 @@
   "description": "Given a set of events, each with a start time and end time, this application renders the events on a single day calendar (similar to Outlook, Calendar.app, and Google Calendar).",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "Chris Antaki",
   "repository": {
@@ -21,5 +21,8 @@
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^2.4.0"
+  },
+  "devDependencies": {
+    "jest-cli": "^0.4.0"
   }
 }
