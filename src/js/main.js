@@ -1,4 +1,4 @@
-function loadAdditionCSS() {
+function loadAdditionalCSS() {
     var css = document.createElement('link');
     css.setAttribute('href', 'css/calendar.css');
     css.setAttribute('rel', 'stylesheet');
@@ -8,4 +8,4 @@ function loadAdditionCSS() {
     document.head.appendChild(css);
 }
 
-loadAdditionCSS();
+loadAdditionalCSS();
